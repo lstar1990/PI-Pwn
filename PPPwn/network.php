@@ -7,7 +7,7 @@ if (isset($_POST['back'])){
 }
 
 if (isset($_POST['saveppp'])){
-	exec('echo \'"'.$_POST["pppu"].'"  *  "'.$_POST["pppw"].'"  192.168.2.2\' | sudo tee /etc/ppp/pap-secrets');
+	exec('echo \'"'.$_POST["pppu"].'"  *  "'.$_POST["pppw"].'"  192.168.1.125\' | sudo tee /etc/ppp/pap-secrets');
 	sleep(1);
 	echo "<script type='text/javascript'>alert('PPP Settings Saved');</script>";
 }
