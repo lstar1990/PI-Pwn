@@ -65,7 +65,7 @@ sudo apt update
 sudo apt install git -y
 sudo rm -f -r PI-Pwn
 sudo systemctl stop pipwn
-git clone https://github.com/stooged/PI-Pwn
+git clone https://github.com/lstar1990/PI-Pwn.git
 sudo mkdir /boot/firmware/
 cd PI-Pwn
 sudo cp -r PPPwn /boot/firmware/
